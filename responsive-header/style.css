@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-size: 22px;
+  font-family: "Source Sans Pro";
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(47, 66, 107);
+  padding: 0px 20px;
+}
+
+.navbar__logo {
+  color: rgb(218, 136, 14);
+}
+
+a {
+  text-decoration: none;
+  color: azure;
+}
+
+.navbar__menu {
+  display: flex;
+  padding-left: 0;
+}
+
+.navbar__menu li {
+  list-style: none;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.navbar__menu li:hover {
+  background-color: rgb(218, 136, 14);
+}
+
+.navbar__icons i {
+  color: azure;
+  padding-left: 20px;
+  font-size: ;
+}
